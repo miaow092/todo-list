@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>todo List form</title>
+</head>
+<body>
+  
+    <!--todo-->
+    <div class="toWork hidden">
+      <form class="toDo_List">
+        <input requirede type="text" placeholder="write your work and Press enter." class="toDo_input"/>
+      </form>
+      <ul class="todos"></ul>
+      <button class="logout_btn">Log out</button>
+    </div>
+    <!--login form-->
+    <form class="login_form">
+    <h2 class="clock">
+      <span class="toDay"></span>
+      <spna class="times"></spna>
+    </h2>
+    <input class="login_input hidden" required maxlength="15" placeholder="Write your name" type="text">
+    <h1 class="greeting hidden"></h1>
+  </form>
+  <div class="weather">
+    <span></span><span></span>
+  </div>      
+  <script src="JS/login.js"></script>
+  <script src="JS/clock.js"></script>
+  <script src="JS/background.js"></script>
+  <script src="JS/todo.js"></script>
+</body>
+</html>
